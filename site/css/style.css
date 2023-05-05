@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+.container {
+    height: 100%;
+
+    /*Organização do display*/
+    display: flex;
+
+    /*Direção que é separado dentro do container row = horizontal | column = coluna*/
+    flex-direction: row;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: flex-start;
+
+
+    /*Largura*/
+    width: 230px;
+
+    /*Altura*/
+    height: 370px;
+
+    /*Curva das bordas*/
+    border-radius: 20px;
+
+    /*Sombra: sendo na ordem: h-shadow v-shadow blur spread color inset.
+    
+    h-shadow: especifica o deslocamento horizontal da sombra. O valor pode ser positivo (sombras à direita do elemento) ou negativo(sombras à esquerda do elemento).
+    
+    v-shadow: especifica o deslocamento vertical da sombra. O valor pode ser positivo (sombras abaixo do elemento) ou negativo (sombras acima do elemento).
+    
+    blur: especifica o desfoque da sombra. Quanto maior o valor, mais difusa será a sombra.
+    spread: especifica a expansão ou contração da sombra. O valor pode ser positivo (expande a sombra) ou negativo (contrai a sombra).
+    
+    color: especifica a cor da sombra.
+    inset: opcional. Se presente, cria uma sombra interna em vez de externa */
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+
+    /*Cor do fundo*/
+    background-color: rgb(255, 255, 255);
+
+    /*Borda*/
+    border: 1px solid rgb(224, 224, 224);
+
+    /*Separação lateral das boxes*/
+    margin-right: auto;
+
+    /*Separação horizontal das boxes*/
+    margin-bottom: 25px;
+}
+
+.botao {
+    background-color: #F6CF80;
+    height: auto;
+    width: 210px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.botao:hover {
+    background-color: black;
+    color: white;
+}
+
+.imgvenda {
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+}
+
+.rodape1 {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: #F6CF80;
+}
