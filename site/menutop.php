@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg barra">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="https://www.logogenio.pt/icons/preview/1798" width=180px height=380px class="img-fluid"></a>
+    <a class="navbar-brand" href="#"><img src="img/logotipo-livraria.png" width=270px height=420px class="img-fluid logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

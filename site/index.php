@@ -3,7 +3,7 @@ include 'menutop.php';
 include 'header.php';
 ?>
 
-<div class="container">
+<div class="container mb-5" >
     <div class="col">
         <div class="row">
             <div class="flexbox">
