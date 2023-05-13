@@ -1,41 +1,32 @@
-<nav class="navbar navbar-expand-lg barra">
+<nav class="navbar navbar-expand-lg cabecalho">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="img/logotipo-livraria.png" width=270px height=420px class="img-fluid logo"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">Página Inicial</a>
+    <ul class="navbar-nav">
+      <a class="navbar-brand" href="index.php"><img src="img/logo/logotipo-livraria.png" class="img-fluid logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="dropdown" style="margin-left: 3.7%;">
+          <button class="dropbtn">Categorias</button>
+          <div class="dropdown-content">
+            <a href="#">Ação</a>
+            <a href="#">Comédia</a>
+            <a href="#">Ficção</a>
+            <a href="#">Romance</a>
+            <a href="#">Terror</a>
+          </div>
+        </div>
+        <li class="barra">
+          <input type="text" placeholder="Digite o título do livro">
+          <button type="submit">Pesquisar</button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="hardware.php">Perfil</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="software.php">Favoritos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="redes.php">Carrinho</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Categorias
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="acao.php">Ação</a></li>
-            <li><a class="dropdown-item" href="comedia.php">Comédia</a></li>
-            <li><a class="dropdown-item" href="ficcao.php">Ficção</a></li>
-            <li><a class="dropdown-item" href="romance.php">Romance</a></li>
-            <li><a class="dropdown-item" href="terror.php">Terror</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="O que está buscando?" aria-label="Search">
-        <button class="btn btn-outline-success busca
-        " type="submit">Buscar</button>
-      </form>
-    </div>
+          <li class="nav-item" style="margin-left: 60px;">
+            <a class="nav-link" href="#"><img src="img/icon/perfil.png" class="icon">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="img/icon/carrinho.png" class="icon">Carrinho</a>
+          </li>
+    </ul>
+  </div>
   </div>
 </nav>
