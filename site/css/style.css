@@ -163,31 +163,52 @@ body {
 
 }
 
+.flexbox img{
+    text-align: center;
+    max-width: 100%;
+    margin-top: 15px;
+    height: 200px;
+    width: 140px;
+    margin-left: 35px;
+    /*Sombra: sendo na ordem: h-shadow v-shadow blur spread color inset.
+    
+    h-shadow: especifica o deslocamento horizontal da sombra. O valor pode ser positivo (sombras à direita do elemento) ou negativo(sombras à esquerda do elemento).
+    
+    v-shadow: especifica o deslocamento vertical da sombra. O valor pode ser positivo (sombras abaixo do elemento) ou negativo (sombras acima do elemento).
+    
+    blur: especifica o desfoque da sombra. Quanto maior o valor, mais difusa será a sombra.
+    spread: especifica a expansão ou contração da sombra. O valor pode ser positivo (expande a sombra) ou negativo (contrai a sombra).
+    
+    color: especifica a cor da sombra.
+    inset: opcional. Se presente, cria uma sombra interna em vez de externa */
+    box-shadow: 1px 1px 8px rgba(0, 1, 2, 0.5);
+}
+
+
+/*.flexbox img:hover{
+    position: fixed;
+    height: 250px;
+    width: 175px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}*/
+
 .flexbox p {
     margin-bottom: 20px;
 }
 
 .flexbox h4 {
     display: inline;
-
 }
 
 .flexbox h1 {
     position: absolute;
-    margin-top: 50px;
-}
-
-.imgvenda {
-    text-align: center;
-    max-width: 100%;
-    margin-top: 15px;
-    height: 180px;
-    width: 180px;
+    margin-top: 30px;
 }
 
 .botao {
     position: static;
-    margin-top: 75px;
+    margin-top: 55px;
     background-color: #ecc292;
     color: rgb(44, 44, 44);
     font-size: 20px;
