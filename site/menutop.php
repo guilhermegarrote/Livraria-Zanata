@@ -17,7 +17,7 @@
           </div>
         </div>
         <li class="barra">
-          <input type="text" placeholder="Digite o título do livro">
+          <input type="text" placeholder="Digite o título do livro" >
           <button type="submit">Pesquisar</button>
         </li>
           <li class="nav-item" style="margin-left: 60px;">

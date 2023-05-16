@@ -11,8 +11,8 @@ body {
 
 .logo {
     max-width: 100%;
-    width: 216px;
-    height: 68.4px;
+    width: 194.4px;
+    height: 61.56px;
     min-width: 150px;
     min-height: 47.5px;
     max-width: 600px;
@@ -82,6 +82,9 @@ body {
     flex: 1;
     border: none;
     font-size: 17px;
+}
+
+.barra input::placeholder{
     text-align: center;
 }
 
@@ -115,7 +118,7 @@ body {
 
 .container {
     position: relative;
-    padding-top: 10%;
+    padding-top: 160px;
     height: 100%;
     /*Organização do display*/
     display: flex;
@@ -184,14 +187,10 @@ body {
     box-shadow: 1px 1px 8px rgba(0, 1, 2, 0.5);
 }
 
-
-/*.flexbox img:hover{
-    position: fixed;
-    height: 250px;
-    width: 175px;
-    margin-bottom: 20px;
-    margin-left: 15px;
-}*/
+.flexbox img:hover{
+    position: static;
+    transform: scale(1.5);
+}
 
 .flexbox p {
     margin-bottom: 20px;
@@ -203,6 +202,7 @@ body {
 
 .flexbox h1 {
     position: absolute;
+    color: rgb(53, 53, 53);
     margin-top: 30px;
 }
 
@@ -223,9 +223,34 @@ body {
 }
 
 footer {
-    clear: both;
-    margin-top: 20px;
-    background-color: #f5f5f5;
-    text-align: center;
-    padding: 20px 0;
+    margin-top: 1800px;
+
+}
+
+.footer {
+    white-space: nowrap;
+    width: 100%;
+}
+
+.footer div{
+    display: inline-block; 
+}
+
+.logofooter {
+    margin-top: 25px;
+    margin-left: 60px;
+    margin-right: 500px;
+    width: 252.72px; 
+    height: 80.028px;
+}
+
+.imgredessociais {
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 35px;
+    height: 35px;
+}
+
+.imgredessociais:hover {
+    filter: invert(100%);
 }
